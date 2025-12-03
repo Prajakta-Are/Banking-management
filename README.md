@@ -36,6 +36,32 @@ Demonstrate fundamental SQL concepts including **JOINs**, **GROUP BY**, **aggreg
 - **SQL** – Query Language for data manipulation  
 
 ---
+## Database Design
+
+### **1. Accounts Table**
+| Column | Type | Description |
+|--------|------|-------------|
+| account_number | INT | Primary Key |
+| customer_name | VARCHAR(100) | Customer’s full name |
+| current_balance | DECIMAL(10,2) | Current balance in account |
+| account_type | VARCHAR(20) | Either ‘savings’ or ‘current’ |
+
+### **2. Transactions Table**
+| Column | Type | Description |
+|--------|------|-------------|
+| trans_id | INT | Primary Key |
+| transaction_type | VARCHAR(20) | Deposit or Withdraw |
+| amount | DECIMAL(10,2) | Transaction amount |
+| date_time | DATETIME | Date and time of transaction |
+| account_number | INT (FK) | References `accounts(account_number)` |
+
+---
+
+## Project Results  
+[Click here to get full code](https://github.com/SarthakJadhav76/Banking_System_Database/blob/main/banking_database_code.sql)
+
+---
+
 ## Working of the System
 
 - Deposits and withdrawals are recorded in the **Transactions** table.  
