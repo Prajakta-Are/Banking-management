@@ -58,7 +58,7 @@ Demonstrate fundamental SQL concepts including **JOINs**, **GROUP BY**, **aggreg
 ---
 
 ## Project Results  
-[Click here to get full code](https://github.com/SarthakJadhav76/Banking_System_Database/blob/main/banking_database_code.sql)
+[Click here to get full code](Banking_database_code.sql)
 
 ---
 
