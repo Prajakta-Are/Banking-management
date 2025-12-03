@@ -36,3 +36,34 @@ Demonstrate fundamental SQL concepts including **JOINs**, **GROUP BY**, **aggreg
 - **SQL** – Query Language for data manipulation  
 
 ---
+## Working of the System
+
+- Deposits and withdrawals are recorded in the **Transactions** table.  
+- Balances are updated manually through SQL queries (no triggers used).  
+- Each record maintains timestamped transaction history for accurate tracking.  
+
+---
+
+## Advantages
+- Simple and beginner-friendly structure.  
+- Demonstrates clear understanding of SQL operations.  
+- Easy to extend for advanced functionality.  
+
+---
+
+## Limitations
+- Manual updates can lead to inconsistencies.  
+- Not ideal for large-scale or real-time banking systems.  
+
+---
+
+## Future Scope
+- Add triggers for automatic balance updates.  
+- Introduce online fund transfer between accounts.  
+- Implement user login and role-based access control.  
+- Develop a web-based front end for better user interaction.  
+
+---
+
+## Conclusion
+This project represents a practical approach to learning and implementing fundamental database management concepts using MySQL.  
